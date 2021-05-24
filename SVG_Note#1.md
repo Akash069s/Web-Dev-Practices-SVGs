@@ -23,9 +23,10 @@ Attributes used:
 3. cy-> center_y
 4. fill->background_color
 5. stroke-> border
-6. stroke-width -> border width
+6. stroke-width -> border width 
 
 `<circle r="100" cx="125" cy="500" fill="none" stroke="black" stroke-width="10"/>`
+
 `<circle r="70" cx="125" cy="300" fill="skyblue" stroke="black" stroke-width="10"/>`
 
 - Rectangle
@@ -53,6 +54,7 @@ A line needs a starting and an ending point which is denoted by
 
 Polygons need atleast 3 shapes to form, you can add points which will form 
 the corners of the polygon.
+
 `<polygon fill="crimson" points="50,50 125,125 200,50 200,200 125,125 50,200" />`
 
 
