@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first SVG</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--
+        r->radius
+        cx-> center_x
+        cy-> center_y
+        fill->background_color
+        stroke-> border
+        stroke-width -> border width
+    -->
+    <!--
+        x->top_left
+        y->top_left
+        height,width -> self_explanatory
+        rx->rounded x axis (horizontal)
+        ry->rounded curve y axis (vertical)
+    -->
+    <!--
+        The order in which you declare the elements will decide
+        which element comes in front or the back.
+        If I want the rectangle to be at the back of the circles then
+        declare the rectangle first
+    -->
+    <!--
+        A line needs a starting and an ending point which is denoted by
+        x1->starting
+        y1->starting
+        It is necessary to declare a stroke and stroke width for a line
+    -->
+    <!--
+        Polygons need atleast 3 shapes to form, you can add points which will form 
+        the corners of the polygon.
+    -->
+    <svg width="1000" height="1000">
+        <circle r="100" cx="125" cy="500" fill="none" stroke="black" stroke-width="10"/>
+        <circle r="70" cx="125" cy="300" fill="skyblue" stroke="black" stroke-width="10"/>
+        <rect rx="10" ry="10" x="275" y="75" height="100" width="100" fill="none" stroke="cyan" stroke-width="10"/>
+        <line x1="10" y1="125" x2="225" y2="225" stroke="none" stroke-width="25"/>
+        <polygon fill="crimson" points="50,50 125,125 200,50 200,200 125,125 50,200" />
+    </svg>
+
+</body>
+
+</html>
