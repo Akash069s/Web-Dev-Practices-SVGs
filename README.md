@@ -2,9 +2,9 @@
 
 ## Learning Plan
 
-1. Understand what an SVG is
-2. Learn how to create an SVG
-3. Learn how to animate an SVG.
+[x] 1. Understand what an SVG is
+[ ] 2. Learn how to create an SVG
+[ ] 3. Learn how to animate an SVG.
 
 ### Expected Learning Time: 
 
