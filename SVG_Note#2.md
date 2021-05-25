@@ -23,3 +23,10 @@ The attribute has 4 properties:
 
 if you increase the height and width of the of veiwBox , the svg zooms out.
 If you decrease , the svg zooms in
+
+## Use an editor like Inkscape
+
+You can use editors like Adobe Illustrator or Inkscape to create and modify SVGs. A link to a tutorial on Adobe 
+Illustrator is given below:
+
+`https://www.youtube.com/watch?v=4XJ8yS0zpa4`
